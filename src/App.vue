@@ -7,26 +7,6 @@
   </div>
 </template>
 
-<head>
-  <script>
-  (function(n,i,v,r,s,c,x,z){x=window.AwsRumClient={q:[],n:n,i:i,v:v,r:r,c:c};window[n]=function(c,p){x.q.push({c:c,p:p});};z=document.createElement('script');z.async=true;z.src=s;document.head.insertBefore(z,document.head.getElementsByTagName('script')[0]);})(
-    'cwr',
-    '94c4cbc7-bbe8-403f-b2d1-9f052240e083',
-    '1.0.0',
-    'us-east-1',
-    'https://client.rum.us-east-1.amazonaws.com/1.19.0/cwr.js',
-    {
-      sessionSampleRate: 1,
-      identityPoolId: "us-east-1:d57a48f9-d843-4b5d-a94c-67231b1547be",
-      endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
-      telemetries: ["performance","errors","http"],
-      allowCookies: true,
-      enableXRay: true
-    }
-  );
-</script>
-  
-</head>
 <script>
 /*! Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
  *  SPDX-License-Identifier: MIT-0
