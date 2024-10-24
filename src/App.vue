@@ -16,32 +16,6 @@ import NavBar from '@/components/NavBar'
 import ParkAlert from '@/components/ParkAlert'
 import axios from 'axios'
 
-import { AwsRum, AwsRumConfig } from 'aws-rum-web';
-
-try {
-  const config: AwsRumConfig = {
-    sessionSampleRate: 1,
-    identityPoolId: "us-east-1:d57a48f9-d843-4b5d-a94c-67231b1547be",
-    endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
-    telemetries: ["performance","errors","http"],
-    allowCookies: true,
-    enableXRay: true
-  };
-
-  const APPLICATION_ID: string = '94c4cbc7-bbe8-403f-b2d1-9f052240e083';
-  const APPLICATION_VERSION: string = '1.0.0';
-  const APPLICATION_REGION: string = 'us-east-1';
-
-  const awsRum: AwsRum = new AwsRum(
-    APPLICATION_ID,
-    APPLICATION_VERSION,
-    APPLICATION_REGION,
-    config
-  );
-} catch (error) {
-  // Ignore errors thrown during CloudWatch RUM web client initialization
-}
-
 export default {
   name: 'App',
   components: {
