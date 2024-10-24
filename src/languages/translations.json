@@ -47,7 +47,364 @@
     },
     "errors": {
       "photoWrongType": "Wrong file type - JPG only.",
-      "photoTooLarge": "Image is loo large - 20 Mb maximum."
+      "photoTooLarge": "Image is loo large - 5Mb maximum."
+    }
+  },
+  "de": {
+    "message": {
+      "hello": "Hallo Gast!"
+    },
+    "words": {
+      "mins": "Min.",
+      "description": "Beschreibung der Aktivität"
+    },
+    "phrases": {
+      "addPhoto": "Fahrtfoto hinzufügen",
+      "yourGallery": "Deine Bildergalerie",
+      "selectLanguage": "Sprache wählen:",
+      "currentWaitTime": "Aktuelle Wartezeit",
+      "outOfService": "Außer Betrieb"
+    },
+    "rideDescriptions": {
+      "null": "Wird geladen...",
+      "ride-001": "Unser Virtual-Reality-Showcase lässt die Gäste in eine Vision der Zukunft eintauchen, in der jede Fahrt auf Sie zugeschnitten ist. Wählen Sie aus einer Reihe interaktiver Abenteuer, bei denen Sumerian Ihr Reiseleiter ist. Lassen Sie Ihrer Fantasie freien Lauf.",
+      "ride-002": "Steigen Sie in den Eventbus der Insel, um sich fortzubewegen! EventBridge verbindet alles, was rund um den Park vor sich geht — es ist Ihre Eintrittskarte für einen unkomplizierten Besuch. Sobald Sie an Bord sind, erfahren Sie alles über die Veranstaltungen des Tages — wählen Sie, ob Sie teilnehmen oder vorbeikommen möchten. Es ist alles beobachtbar!",
+      "ride-003": "Erleben Sie die Wunder der Galaxie von der Sicherheit des API Gateway-Shuttles aus. Es ist eine schnelle Rundreise um die Planeten, sicher vor DDoS-Meteorschauern und den Gefahren des Sonnensystems geschützt. Alles ist vollständig verwaltet — viel Spaß bei der Fahrt!",
+      "ride-004": "Das SAR-Karussell ist der erste Ort, an dem Sie auf Inventor Island loslegen können. Schauen Sie sich all die großartigen Ideen an, die entwickelt und geteilt wurden, und kreieren Sie dann Ihre eigenen! Wenn Sie Hilfe benötigen, steht Sam das Eichhörnchen zur Verfügung, um alle Fragen zu beantworten.",
+      "ride-005": "Die erste Fahrt, die wir auf Innovator Island gebaut haben, war SQS Mountain, die schnelle Achterbahn innerhalb des künstlichen Vulkans im Herzen der Insel. Machen Sie sich keine Sorgen, wenn es überfüllt erscheint — die Warteschlange bewegt sich sehr schnell.",
+      "ride-006": "Kinder jeden Alters lieben Container — und mit Fargate können Sie sich auf die unterhaltsamen Dinge konzentrieren, die Ihre Container können. Dies ist eine familienfreundliche Attraktion, die zeigt, wie Serverless und Container nebeneinander existieren, damit sich unsere Erfinder darauf konzentrieren können, coole Dinge zu bauen.",
+      "ride-007": "Verirren Sie sich nicht — lassen Sie sich von Step Functions zeigen, wie Sie den Überblick behalten können, wo Sie sich gerade befinden! Es ist definitiv keine kleine Welt für einen Innovator. In der Welt von Step Function kannst du dich einschalten und weitere tolle Erfindungen bauen.",
+      "ride-008": "Dies ist der ultimative Wasserpark der Welt. Bei so vielen Bächen wirst du nass! Badeanzüge werden empfohlen und die meisten Attraktionen können mit oder ohne Feuerwehrschlauch genossen werden. Wir empfehlen Ihnen, danach Lambda Lakes zu besuchen.",
+      "ride-009": "Schlängeln Sie sich auf dem CloudWatch Log Ride durch die malerischsten Teile der Insel — es ist eine Holzrinne wie keine andere. Es gibt plötzliche Drehungen und Tiefen, wenn man sie am wenigsten erwartet. Bereite dich auf das Platschen vor, wenn du den Alarm hörst!",
+      "ride-010": "Treffen Sie das beliebteste serverlose Eichhörnchen aller Zeiten und genießen Sie das beste Essen, das die Insel zu bieten hat. Dieses kulinarische Erlebnis mit umfassendem Service bietet stündliche Speisemöglichkeiten mit einer Auswahl an internationalen Gerichten und familienfreundlicher Unterhaltung.",
+      "ride-011": "Lambda macht Entwicklern das Leben leichter — mit all der zusätzlichen Zeit können Sie wählen, ob Sie an der Differenzierung der Kundenfunktionen arbeiten oder mit dem Boot um den See fahren möchten. Jeder Tag ist Freitag hier auf Innovator Island, also lasst uns die Füße nass machen!",
+      "ride-012": "SNS ist einer der ältesten Dienste in der serverlosen Familie. Gehen Sie auf diese Tour, um die Geschichte unseres berühmten SNS-Dienstes zu erkunden. Du wirst im Handumdrehen losziehen und so viel Spaß haben, dass du alle benachrichtigen willst — aber nur mit einer klar definierten Wiederholungsrichtlinie!",
+      "ride-013": "„Was ist der offizielle Vogel der Insel?“ Fragen Sie Alexa, während Sie den Zoo des Parks erkunden. Sie wird Sie auf dem Laufenden halten und Ihnen mitteilen, ob das großäugige, einheimische Inselfrettchen hungrig oder freundlich ist. Die Fütterungszeiten finden den ganzen Tag über statt.",
+      "ride-014": "Nordkalifornien ist die Heimat unserer ersten Region im Westen der Vereinigten Staaten. Diese Zugreise führt Sie in die gleichen Fußstapfen wie die frühen Cloud-Pioniere, als sie die Grenzen der Hochverfügbarkeit erkundeten.",
+      "ride-015": "Das moderne Anwendungsdesign hat sich schnell weiterentwickelt, aber wie sieht die Zukunft aus? Erfahren Sie, wie Serverless auf Innovator Island eingesetzt wird und wie Unternehmen der Zukunft eine serverlose Mentalität nutzen werden, um den Weg zu ihrem Schicksal zu ebnen.",
+      "ride-016": "Machen Sie sich bereit für eine Leistung mit hoher Oktanzahl, die die Gäste in den Bann zieht! Erlebe eine rasante Fahrt mit Nervenkitzel, die pure Kraft, modernste Technologie und gigantischen Maßstab vereint. Die Aufführungen finden den ganzen Tag über statt.",
+      "facility-007": "Entdecken Sie die einzigartigen Aromen der südpazifischen Küche.",
+      "facility-008": "Gesunde Snacks von Sam the Squirrel.",
+      "facility-009": "Genießen Sie einen klassischen Bezzy Burger, hausgemacht mit allem Drum und Dran.",
+      "facility-010": "Zahlen Sie für den Wert! Egal, ob Sie ein Lambda Golf Tee oder eine Step Functions-Schnabelschale wünschen, wir skalieren, um Ihren Bedürfnissen gerecht zu werden."
+    },
+    "photoUploaded": {
+      "title": "Foto hochgeladen.",
+      "text": "Wir bearbeiten dein Foto. Sie erhalten eine Benachrichtigung, wenn es fertig ist."
+    },
+    "photoProcessed": {
+      "title": "Foto bereit!",
+      "text": "Ihr neues Foto ist bereit, in der Galerie angezeigt zu werden."
+    },
+    "errors": {
+      "photoWrongType": "Falscher Dateityp — nur JPG.",
+      "photoTooLarge": "Das Bild ist zu groß — maximal 5 MB."
+    }
+  },
+  "fr": {
+    "message": {
+      "hello": "Bonjour invité !"
+    },
+    "words": {
+      "mins": "minutes",
+      "description": "Description de l'activité"
+    },
+    "phrases": {
+      "addPhoto": "Ajouter une photo du trajet",
+      "yourGallery": "Votre galerie de photos",
+      "selectLanguage": "Sélectionnez la langue :",
+      "currentWaitTime": "Temps d'attente actuel",
+      "outOfService": "Hors service"
+    },
+    "rideDescriptions": {
+      "null": "Chargement en cours...",
+      "ride-001": "Notre vitrine de réalité virtuelle plonge les clients dans une vision du futur, où chaque trajet est adapté à vos besoins. Choisissez parmi une gamme d'aventures interactives où Sumerian est votre guide. Laissez libre cours à votre imagination.",
+      "ride-002": "Montez à bord du bus événementiel de l'île pour vous déplacer ! EventBridge connecte tout ce qui se passe dans le parc : c'est votre ticket pour une visite facile. Une fois à bord, vous serez au courant de tous les événements de la journée. Choisissez d'y participer ou d'y participer. Tout est observable !",
+      "ride-003": "Découvrez les merveilles de la galaxie depuis la sécurité de la navette API Gateway. Il s'agit d'un aller-retour rapide autour des planètes, à l'abri des pluies de météores DDoS et des dangers du système solaire. Tout est entièrement géré, profitez bien de la balade !",
+      "ride-004": "Le carrousel SAR est le premier endroit pour débuter sur Inventor Island. Jetez un œil à toutes les bonnes idées qui ont été créées et partagées, puis créez les vôtres ! Si vous avez besoin d'aide, Sam l'écureuil est là pour répondre à toutes vos questions.",
+      "ride-005": "Le premier manège que nous avons construit sur Innovator Island, SQS Mountain, les montagnes russes rapides à l'intérieur du volcan artificiel au cœur de l'île. Ne vous inquiétez pas s'il semble bondé, la file d'attente se déplace très rapidement.",
+      "ride-006": "Les enfants de tous âges adorent les contenants, et avec Fargate, vous pouvez vous concentrer sur les activités amusantes qu'ils peuvent apporter. Il s'agit d'une attraction familiale qui montre comment les serveurs et les conteneurs coexistent pour permettre à nos inventeurs de se concentrer sur la création de choses intéressantes.",
+      "ride-007": "Ne vous perdez pas, laissez Step Functions vous montrer comment savoir où vous vous trouvez ! Le monde n'est certainement pas petit pour un innovateur. Dans le monde de Step Function, vous pouvez développer et créer d'autres inventions géniales.",
+      "ride-008": "C'est le parc aquatique par excellence au monde. Avec autant de ruisseaux, vous allez vous mouiller ! Les maillots de bain sont recommandés et la plupart des attractions peuvent être visitées avec ou sans Firehose. Nous vous recommandons de visiter les lacs Lambda par la suite.",
+      "ride-009": "Parcourez les parties les plus pittoresques de l'île à bord du CloudWatch Log Ride, un canal à bois unique en son genre. Il y a des rebondissements soudains au moment où l'on s'y attend le moins. Préparez-vous à affronter les éclaboussures après avoir entendu l'alarme !",
+      "ride-010": "Rencontrez l'écureuil sans serveur préféré de tous tout le monde tout en dégustant la meilleure cuisine de l'île. Cette expérience culinaire à service complet propose des possibilités de restauration toutes les heures, proposant une gamme de plats internationaux et des divertissements pour toute la famille.",
+      "ride-011": "Lambda facilite la vie des développeurs : avec tout ce temps supplémentaire, vous pouvez choisir entre travailler sur la différenciation des fonctionnalités proposées aux clients ou faire le tour du lac en bateau. Chaque jour est un vendredi ici à Innovator Island, alors mouillons-nous les pieds !",
+      "ride-012": "Le SNS est l'un des plus anciens services de la famille des serveurs sans serveur. Participez à cette visite pour découvrir l'histoire de notre célèbre service SNS. Vous serez prêt en un rien de temps et vous vous amuserez tellement que vous aurez envie d'avertir tout le monde, mais uniquement avec une politique bien définie en matière de nouvelles tentatives !",
+      "ride-013": "« Quel est l'oiseau officiel de l'île ? » Demandez à Alexa pendant que vous explorez le zoo du parc. Elle vous tiendra au courant et vous indiquera si le furet de l'île aux grands yeux est affamé ou amical. Les heures d'alimentation ont lieu tout au long de la journée.",
+      "ride-014": "Le nord de la Californie abrite notre première région dans l'ouest des États-Unis. Ce voyage en train vous emmène sur les traces des premiers pionniers du cloud, qui ont exploré les frontières de la haute disponibilité.",
+      "ride-015": "La conception d'applications modernes a évolué rapidement, mais que nous réserve l'avenir ? Découvrez comment le serverless est utilisé sur Innovator Island et comment les organisations du futur utiliseront une mentalité axée sur le serverless pour tracer la voie vers leur destin.",
+      "ride-016": "Préparez-vous à une performance à indice d'octane élevé qui mettra les invités sur le bord de leur siège ! Vivez une expérience palpitante à grande vitesse qui combine puissance brute, technologie de pointe et grande échelle. Les spectacles ont lieu tout au long de la journée.",
+      "facility-007": "Découvrez les saveurs uniques de la cuisine du Pacifique Sud.",
+      "facility-008": "Des snacks sains de Sam the Squirrel.",
+      "facility-009": "Dégustez un Bezzy Burger classique, fait maison avec toutes les garnitures.",
+      "facility-010": "Payez pour le rapport qualité-prix ! Que vous souhaitiez un t-shirt de golf Lambda ou un gobelet Step Functions, nous nous adaptons à vos besoins."
+    },
+    "photoUploaded": {
+      "title": "Photo téléchargée.",
+      "text": "Nous sommes en train de traiter votre photo. Vous recevrez une alerte lorsqu'il sera prêt."
+    },
+    "photoProcessed": {
+      "title": "Prêt pour la photo !",
+      "text": "Votre nouvelle photo est prête à être affichée dans la galerie."
+    },
+    "errors": {
+      "photoWrongType": "Type de fichier incorrect - JPG uniquement.",
+      "photoTooLarge": "L'image est trop grande, 5 Mo maximum."
+    }
+  },
+  "it": {
+    "message": {
+      "hello": "Ciao ospite!"
+    },
+    "words": {
+      "mins": "minuti",
+      "description": "Descrizione dell'attività"
+    },
+    "phrases": {
+      "addPhoto": "Aggiungi foto della corsa",
+      "yourGallery": "La tua galleria fotografica",
+      "selectLanguage": "Seleziona lingua:",
+      "currentWaitTime": "Tempo di attesa attuale",
+      "outOfService": "Fuori servizio"
+    },
+    "rideDescriptions": {
+      "null": "Caricamento...",
+      "ride-001": "La nostra vetrina di realtà virtuale immerge gli ospiti in una visione del futuro, in cui ogni corsa è fatta su misura per te. Scegli tra una serie di avventure interattive in cui Sumerian è la tua guida. Libera la tua immaginazione.",
+      "ride-002": "Sali sull'autobus degli eventi dell'isola per spostarti! EventBridge collega tutto ciò che accade intorno al parco: è il tuo biglietto per una visita facile. Una volta a bordo, conoscerai tutti gli eventi della giornata: scegli se partecipare o abbonarti. È tutto osservabile!",
+      "ride-003": "Scopri le meraviglie della galassia dalla sicurezza dello shuttle API Gateway. È un rapido viaggio di andata e ritorno intorno ai pianeti, protetto in modo sicuro dagli sciami meteorici DDoS e dai pericoli del sistema solare. Tutto è completamente gestito: buon viaggio!",
+      "ride-004": "Il SAR Carousel è il primo punto di partenza su Inventor Island. Dai un'occhiata a tutte le fantastiche idee che sono state costruite e condivise, e poi creane una tua! Se hai bisogno di aiuto, lo scoiattolo Sam è qui per rispondere a qualsiasi domanda.",
+      "ride-005": "La prima attrazione che abbiamo costruito su Innovator Island, SQS Mountain, le veloci montagne russe all'interno del vulcano artificiale nel cuore dell'isola. Non preoccupatevi se vi sembra affollato: la coda si muove molto velocemente.",
+      "ride-006": "I bambini di tutte le età amano i container e con Fargate puoi concentrarti sulle cose divertenti che i contenitori possono fare. Questa è un'attrazione adatta alle famiglie che mostra come serverless e container coesistano per consentire ai nostri inventori di concentrarsi sulla creazione di cose interessanti.",
+      "ride-007": "Non perderti: lascia che Step Functions ti mostri come tenere traccia di dove ti trovi! Non è sicuramente un mondo piccolo per un innovatore. Nel mondo Step Function, puoi potenziare e creare altre fantastiche invenzioni.",
+      "ride-008": "Questo è il parco acquatico per eccellenza al mondo. Con così tanti ruscelli, ti bagnerai! I costumi da bagno sono consigliati e la maggior parte delle attrazioni può essere goduta con o senza focolare. Ti consigliamo di visitare Lambda Lakes dopo.",
+      "ride-009": "Attraversa le parti più pittoresche dell'isola con il CloudWatch Log Ride: è un canale di tronchi come nessun altro. Ci sono colpi di scena improvvisi quando meno te lo aspetti. Preparati agli spruzzi dopo aver sentito l'allarme!",
+      "ride-010": "Incontra lo scoiattolo senza server preferito da tutti mentre ti godi il miglior cibo che l'isola ha da offrire. Questa esperienza culinaria a servizio completo offre opportunità di ristorazione ogni ora, con una vasta gamma di piatti della cucina globale e intrattenimento per famiglie.",
+      "ride-011": "Lambda semplifica la vita degli sviluppatori: con tutto quel tempo extra, puoi scegliere tra lavorare sulla differenziazione delle caratteristiche dei clienti o fare il giro del lago in barca. Ogni giorno è venerdì qui a Innovator Island, quindi bagniamoci i piedi!",
+      "ride-012": "SNS è uno dei servizi più vecchi della famiglia serverless. Partecipa a questo tour per esplorare la storia del nostro famoso servizio SNS. Ti libererai in pochissimo tempo e ti divertirai così tanto che vorrai avvisare tutti, ma solo con una politica di riprova ben definita!",
+      "ride-013": "«Qual è l'uccello ufficiale dell'isola?» Chiedi ad Alexa mentre esplori lo zoo del parco. Ti terrà aggiornato e ti farà sapere se il furetto nativo dell'isola dagli occhi grandi è affamato o amichevole. I tempi di alimentazione si verificano nell'arco della giornata.",
+      "ride-014": "La California del Nord è la patria della nostra prima regione negli Stati Uniti occidentali. Questo viaggio in treno ripercorre le orme dei primi pionieri del cloud e dell'esplorazione delle frontiere dell'alta disponibilità.",
+      "ride-015": "L'Application Design moderno si è evoluto rapidamente, ma cosa ci riserva il futuro? Scopri come viene utilizzato il serverless su Innovator Island e in che modo le organizzazioni del futuro useranno la mentalità serverless first per creare il percorso verso il proprio destino.",
+      "ride-016": "Preparati per uno spettacolo ad alto numero di ottani che metterà gli ospiti con il fiato sospeso! Prova un'esperienza da brivido ad alta velocità che combina potenza pura, tecnologia all'avanguardia e vasta scala. Gli spettacoli si svolgono durante tutta la giornata.",
+      "facility-007": "Scopri i sapori unici della cucina del Sud Pacifico.",
+      "facility-008": "Snack salutari di Sam the Squirrel.",
+      "facility-009": "Goditi un classico Bezzy Burger, fatto in casa con tutte le guarnizioni.",
+      "facility-010": "Paga per il valore! Che tu voglia una maglietta da golf Lambda o una tazza con beccuccio Step Functions, stiamo ampliando la gamma per soddisfare le tue esigenze."
+    },
+    "photoUploaded": {
+      "title": "Foto caricata.",
+      "text": "Stiamo elaborando la tua foto. Riceverai un avviso quando sarà pronto."
+    },
+    "photoProcessed": {
+      "title": "Foto pronta!",
+      "text": "La tua nuova foto è pronta per essere visualizzata nella galleria."
+    },
+    "errors": {
+      "photoWrongType": "Tipo di file errato: solo JPG.",
+      "photoTooLarge": "L'immagine è troppo grande, massimo 5 Mb."
+    }
+  },
+  "no": {
+    "message": {
+      "hello": "Hei gjest!"
+    },
+    "words": {
+      "mins": "minutter",
+      "description": "Aktivitetsbeskrivelse"
+    },
+    "phrases": {
+      "addPhoto": "Legg til ride bilde",
+      "yourGallery": "Fotogalleriet ditt",
+      "selectLanguage": "Velg språk:",
+      "currentWaitTime": "Nåværende ventetid",
+      "outOfService": "Ut av drift"
+    },
+    "rideDescriptions": {
+      "null": "Laster inn...",
+      "ride-001": "Vårt Virtual Reality-utstillingsvindu fordyper gjestene i en visjon om fremtiden, der hver tur er skreddersydd for deg. Velg mellom en rekke interaktive opplevelser der Sumerian er din guide. La fantasien streife fritt.",
+      "ride-002": "Hopp på øyas begivenhetsbuss for å komme deg rundt! EventBridge kobler sammen alt som skjer rundt parken - det er din billett til et enkelt besøk. Når du er om bord, vil du høre om alle dagens arrangementer - velg å delta eller passere. Det hele er observerbart!",
+      "ride-003": "Opplev galaksens underverker fra sikkerheten til API Gateway-skyttelen. Det er en rask rundtur rundt planetene, trygt beskyttet mot DDoS-meteorbyger og farene ved solsystemet. Alt er fullt administrert - nyt turen!",
+      "ride-004": "SAR-karusellen er det første stedet å komme i gang på Inventor Island. Ta en titt på alle de gode ideene som ble bygget og delt, og lag deretter dine egne! Hvis du trenger hjelp, er ekornet Sam rundt for å svare på spørsmål.",
+      "ride-005": "Den første turen vi bygde på Innovator Island, SQS Mountain, den raske berg-og-dalbanen inne i den menneskeskapte vulkanen i hjertet av øya. Ikke bekymre deg hvis det virker overfylt - køen beveger seg veldig raskt.",
+      "ride-006": "Barn i alle aldre elsker containere - og med Fargate kan du fokusere på de morsomme tingene containerne dine kan gjøre. Dette er en familievennlig attraksjon som viser hvordan serverløse og containere sameksisterer for å la oppfinnerne våre fokusere på å bygge kule ting.",
+      "ride-007": "Ikke gå deg vill - la Step Functions vise deg hvordan du holder styr på hvor du er! Det er definitivt ikke en liten verden for en innovatør. I Step Function-verdenen kan du styrke og bygge flere fantastiske oppfinnelser.",
+      "ride-008": "Dette er verdens ultimate badeland. Med så mange bekker kommer du til å bli våt! Badedrakter anbefales, og de fleste attraksjoner kan nytes med eller uten brannslange. Vi anbefaler at du besøker Lambda Lakes etter.",
+      "ride-009": "Sled deg gjennom de mest pittoreske delene av øya i skyenWatch Log Ride - det er en tømmerflom som ingen andre. Det er plutselige vendinger og fall når du minst venter dem. Vær forberedt på sprutet etter at du hører alarmen!",
+      "ride-010": "Møt alles favoritt serverløse ekorn mens du nyter den beste maten øya har å tilby. Denne matopplevelsen med full service tilbyr spisemuligheter hver time, med en rekke globale retter og familievennlig underholdning.",
+      "ride-011": "Lambda gjør utviklernes liv enkelt - med all den ekstra tiden kan du velge mellom å jobbe med å skille kundefunksjoner eller båtliv rundt innsjøen. Hver dag er fredag her på Innovator Island, så la oss få føttene våte!",
+      "ride-012": "SNS er en av de eldste tjenestene i serverløs familie. Gå på denne turen for å utforske historien til vår berømte SNS-tjeneste. Du vil bli flink på kort tid og ha det så gøy at du vil varsle alle - men bare med en veldefinert policy for forsøk på nytt!",
+      "ride-013": "«Hva er den offisielle fuglen på øya?» Spør Alexa mens du utforsker parkens dyrehage. Hun vil holde deg oppdatert og gi deg beskjed om den storøyde, innfødte øyilderen er sulten eller vennlig. Fôringstider forekommer hele dagen.",
+      "ride-014": "Nord-California er hjemmet til vår første region i det vestlige USA. Denne togreisen tar deg i de samme fotsporene som de tidlige skypionerene, og mens de utforsket grensene for høy tilgjengelighet.",
+      "ride-015": "Moderne applikasjonsdesign har utviklet seg raskt, men hva vil fremtiden bringe? Lær hvordan serverless brukes på Innovator Island, og hvordan fremtidens organisasjoner vil bruke en serverless-first mentalitet for å skape veien til deres skjebner.",
+      "ride-016": "Gjør deg klar for en høyoktan ytelse som setter gjestene på kantene av setene sine! Opplev en spennende tur med høy hastighet som kombinerer rå kraft, banebrytende teknologi og massiv skala. Shows skjer hele dagen.",
+      "facility-007": "Oppdag de unike smakene av mat i Sør-Stillehavet.",
+      "facility-008": "Sunn snacks fra Sam the Ecorrel.",
+      "facility-009": "Nyt en klassisk Bezzy Burger, hjemmelaget med alt tilbehør.",
+      "facility-010": "Betal for verdi! Enten du vil ha en Lambda Golf Tee eller en Step Functions sippy cup, skalerer vi opp for å dekke dine behov."
+    },
+    "photoUploaded": {
+      "title": "Bilde lastet opp.",
+      "text": "Vi behandler bildet ditt. Du vil motta et varsel når det er klart."
+    },
+    "photoProcessed": {
+      "title": "Foto klar!",
+      "text": "Det nye bildet ditt er klart til visning i galleriet."
+    },
+    "errors": {
+      "photoWrongType": "Feil filtype - bare JPG.",
+      "photoTooLarge": "Bildet er for stort - maksimalt 5 MB."
+    }
+  },
+  "es": {
+    "message": {
+      "hello": "¡Hola huésped!"
+    },
+    "words": {
+      "mins": "minutos",
+      "description": "Descripción de la actividad"
+    },
+    "phrases": {
+      "addPhoto": "Añadir foto del viaje",
+      "yourGallery": "Tu galería de fotos",
+      "selectLanguage": "Seleccione el idioma:",
+      "currentWaitTime": "Tiempo de espera actual",
+      "outOfService": "Fuera de servicio"
+    },
+    "rideDescriptions": {
+      "null": "Cargando...",
+      "ride-001": "Nuestro escaparate de realidad virtual sumerge a los huéspedes en una visión del futuro, en la que cada viaje está hecho a tu medida. Elige entre una variedad de aventuras interactivas en las que Sumerian es tu guía. Deja volar tu imaginación.",
+      "ride-002": "¡Súbete al autobús de eventos de la isla para desplazarte! EventBridge conecta todo lo que sucede en el parque: es tu entrada para una visita fácil. Una vez a bordo, te enterarás de todos los eventos del día. Puedes elegir entre participar o pasar. ¡Todo es observable!",
+      "ride-003": "Disfruta de las maravillas de la galaxia desde la seguridad del transbordador API Gateway. Es un viaje rápido de ida y vuelta alrededor de los planetas, protegido de las lluvias de meteoros DDoS y de los peligros del sistema solar. Todo está totalmente gestionado: ¡disfruta del viaje!",
+      "ride-004": "El carrusel SAR es el primer lugar para empezar en Inventor Island. Eche un vistazo a todas las grandes ideas que se crearon y compartieron, ¡y luego cree las suyas propias! Si necesitas ayuda, la ardilla Sam está aquí para responder cualquier pregunta.",
+      "ride-005": "La primera atracción que construimos en Innovator Island, SQS Mountain, la rápida montaña rusa dentro del volcán artificial en el corazón de la isla. No te preocupes si parece que hay mucha gente: la cola se mueve muy rápido.",
+      "ride-006": "A los niños de todas las edades les encantan los contenedores, y con Fargate puedes concentrarte en las cosas divertidas que pueden hacer tus contenedores. Se trata de una atracción para toda la familia que muestra cómo la tecnología sin servidor y los contenedores coexisten para que nuestros inventores puedan centrarse en crear cosas interesantes.",
+      "ride-007": "No se pierda: ¡deje que Step Functions le enseñe cómo llevar un registro de dónde se encuentra! Definitivamente, este no es un mundo pequeño para un innovador. En el mundo de Step Function, puedes potenciar y crear más inventos asombrosos.",
+      "ride-008": "Este es el mejor parque acuático del mundo. ¡Con tantos arroyos, te vas a mojar! Se recomienda usar trajes de baño, y la mayoría de las atracciones se pueden disfrutar con o sin una manguera contra incendios. Le recomendamos que visite Lambda Lakes después.",
+      "ride-009": "Recorre las partes más pintorescas de la isla en el CloudWatch Log Ride: es un canal de troncos como ningún otro. Hay giros y caídas repentinos cuando menos te lo esperas. ¡Prepárate para el chapoteo cuando escuches la alarma!",
+      "ride-010": "Conoce a la ardilla sin servidor favorita de todos mientras disfrutas de la mejor comida que ofrece la isla. Esta experiencia gastronómica de servicio completo ofrece opciones gastronómicas cada hora, con una variedad de platos internacionales y entretenimiento para toda la familia.",
+      "ride-011": "Lambda facilita la vida de los desarrolladores: con todo ese tiempo extra, pueden elegir entre trabajar para diferenciar las características de los clientes o pasear en bote por el lago. Todos los días son viernes aquí en Innovator Island, ¡así que mojémonos los pies!",
+      "ride-012": "SNS es uno de los servicios más antiguos de la familia sin servidor. Realice este recorrido para explorar la historia de nuestro famoso servicio de redes sociales. Te estarás desplegando en un abrir y cerrar de ojos y te divertirás tanto que querrás avisar a todo el mundo, ¡pero solo con una política de reintentos bien definida!",
+      "ride-013": "«¿Cuál es el pájaro oficial de la isla?» Pregúntale a Alexa mientras exploras el zoológico del parque. Ella te mantendrá informado y te dirá si el hurón nativo de la isla, de ojos grandes, tiene hambre o es amable. Los horarios de alimentación se producen a lo largo del día.",
+      "ride-014": "El norte de California es el hogar de nuestra primera región en el oeste de los Estados Unidos. Este viaje en tren le permitirá seguir los mismos pasos que los pioneros de la nube y explorar las fronteras de la alta disponibilidad.",
+      "ride-015": "El diseño moderno de aplicaciones ha evolucionado rápidamente, pero ¿qué depara el futuro? Descubra cómo se usa la tecnología sin servidor en Innovator Island y cómo las organizaciones del futuro utilizarán la mentalidad de priorizar la tecnología sin servidores para crear el camino hacia sus destinos.",
+      "ride-016": "¡Prepárate para disfrutar de una actuación de alto octanaje que pondrá a los huéspedes en los bordes de sus asientos! Disfruta de una emocionante conducción a alta velocidad que combina potencia bruta, tecnología de vanguardia y una escala enorme. Los espectáculos tienen lugar durante todo el día.",
+      "facility-007": "Descubra los sabores únicos de la gastronomía del Pacífico Sur.",
+      "facility-008": "Aperitivos saludables de Sam the Squirrel.",
+      "facility-009": "Disfruta de una hamburguesa Bezzy clásica, hecha en casa con todos los adornos.",
+      "facility-010": "¡Pague por el valor! Ya sea que prefieras un tee de golf Lambda o un vaso para sorber Step Functions, lo ampliamos para satisfacer tus necesidades."
+    },
+    "photoUploaded": {
+      "title": "Foto subida.",
+      "text": "Estamos procesando tu foto. Recibirás una alerta cuando esté lista."
+    },
+    "photoProcessed": {
+      "title": "¡Listo para la foto!",
+      "text": "La nueva foto está lista para verla en la galería."
+    },
+    "errors": {
+      "photoWrongType": "Tipo de archivo incorrecto: solo JPG.",
+      "photoTooLarge": "La imagen es demasiado grande: 5 Mb como máximo."
+    }
+  },
+  "fa": {
+    "message": {
+      "hello": "سلام مهمان!"
+    },
+    "words": {
+      "mins": "دقیقه ها",
+      "description": "توضیحات فعالیت"
+    },
+    "phrases": {
+      "addPhoto": "افزودن عکس سواری",
+      "yourGallery": "گالری عکس شما",
+      "selectLanguage": "زبان را انتخاب کنید:",
+      "currentWaitTime": "زمان انتظار فعلی",
+      "outOfService": "خارج از خدمت"
+    },
+    "rideDescriptions": {
+      "null": "در حال بارگیری...",
+      "ride-001": "نمایشگاه واقعیت مجازی ما مهمانان را در چشم انداز آینده غوطه ور می کند، جایی که هر سواری برای شما طراحی شده است. از میان طیف وسیعی از ماجراهای تعاملی انتخاب کنید که سومری راهنمای شماست. بگذارید تخیل شما آزادانه پرسه بزند.",
+      "ride-002": "سوار اتوبوس رویداد جزیره شوید تا دور شوید! EventBridge هر آنچه در اطراف پارک اتفاق می افتد را به هم متصل می کند - این بلیط شما برای یک بازدید آسان است. پس از ورود به هواپیما، در مورد تمام رویدادهای روز خواهید شنید - انتخاب کنید که شرکت کنید یا گذر کنید. همه چیز قابل مشاهده است!",
+      "ride-003": "شگفتی های کهکشان را از ایمنی شاتل API Gateway تجربه کنید. این یک رفت و برگشت سریع به دور سیارات است که با خیال راحت از بارش شهابی DDoS و خطرات منظومه شمسی محافظت می شود. همه چیز به طور کامل مدیریت می شود - از سواری لذت ببرید!",
+      "ride-004": "چرخ فلک SAR اولین مکانی است که در جزیره Inventor شروع می کنید. به تمام ایده های عالی که ساخته شده و به اشتراک گذاشته شده اند نگاهی بیندازید و سپس ایده های خود را ایجاد کنید! اگر به کمک نیاز دارید، سنجاب سام در اطراف است تا به هر سوالی پاسخ دهد.",
+      "ride-005": "اولین سواری که ما در جزیره نوآور ساختیم، کوه SQS، ترن هوایی سریع درون آتشفشان ساخته شده توسط انسان در قلب جزیره. اگر شلوغ به نظر می رسد نگران نباشید - صف بسیار سریع حرکت می کند.",
+      "ride-006": "کودکان در تمام سنین عاشق ظروف هستند - و با Fargate می توانید روی کارهای سرگرم کننده ای که ظروف شما می توانند انجام دهند تمرکز کنید. این یک جاذبه خانوادگی مناسب است که نشان می دهد که چگونه بدون سرور و کانتینر با هم وجود دارند تا مخترعان ما بر ساخت چیزهای جالب تمرکز کنند.",
+      "ride-007": "گم نشوید - اجازه دهید Step Functions به شما نشان دهد که چگونه کجا هستید را پیگیری کنید! قطعاً دنیای کوچکی برای یک نوآور نیست. در دنیای Step Function، می توانید اختراعات شگفت انگیز بیشتری را تقویت کرده و بسازید.",
+      "ride-008": "این پارک آبی نهایی جهان است. با این همه جریانات، خیس خواهید شد! لباس شنا توصیه می شود و از اکثر جاذبه ها می توان با یا بدون Firehose لذت برد. توصیه می کنیم بعد از آن از دریاچه های لامبدا دیدن کنید.",
+      "ride-009": "با CloudWatch Log Ride از زیباترین قسمت های جزیره پیچ و پیچ بزنید - این یک چاله چوبی است که شبیه هیچ چیز دیگری نیست. زمانی که کمترین انتظار را دارید، پیچ و تاب ناگهانی رخ می دهد. پس از شنیدن زنگ هشدار، برای پاشش آماده باشید!",
+      "ride-010": "در حین لذت بردن از بهترین غذاهای جزیره، سنجاب بدون سرور مورد علاقه همه آشنا شوید. این تجربه غذاخوری با خدمات کامل فرصت های ناهار خوری ساعتی را ارائه می دهد که شامل طیف وسیعی از غذاهای جهانی و سرگرمی های خانوادگی است.",
+      "ride-011": "Lambda زندگی توسعه دهندگان را آسان می کند - با تمام این زمان اضافی، می توانید بین کار بر روی ویژگی های متمایز مشتری یا قایقرانی در اطراف دریاچه انتخاب کنید. هر روز جمعه در جزیره نوآورنده است، بنابراین بیایید پاها را خیس کنیم!",
+      "ride-012": "SNS یکی از قدیمی ترین سرویس ها در خانواده بدون سرور است. به این تور بروید تا تاریخچه سرویس مشهور SNS ما را کشف کنید. شما در کمترین زمان از این کار لذت خواهید برد و آنقدر لذت خواهید برد که می خواهید همه را مطلع کنید - اما فقط با یک سیاست آزمایش مجدد کاملاً تعریف شده!",
+      "ride-013": "«پرنده رسمی جزیره چیست؟» هنگام گشت و گذار در باغ وحش پارک از الکسا بپرسید. او شما را مطلع می کند و به شما اطلاع می دهد که آیا راسک بومی جزیره با چشم بزرگ گرسنه یا دوستانه است. زمان تغذیه در طول روز اتفاق می افتد.",
+      "ride-014": "کالیفرنیا شمالی خانه اولین منطقه ما در غرب ایالات متحده است. این سفر با قطار شما را به همان قدم های پیشگامان اولیه ابر می برد و در حالی که آنها مرزهای دسترسی بالا را کشف می کنند.",
+      "ride-015": "طراحی اپلیکیشن مدرن به سرعت تکامل یافته است اما آینده چه خواهد بود؟ یاد بگیرید که چگونه serverless در جزیره نوآوران استفاده می شود و چگونه سازمانهای آینده از ذهنیت اول بدون سرور برای ایجاد مسیر سرنوشت خود استفاده خواهند کرد.",
+      "ride-016": "برای یک عملکرد با اکتان بالا آماده شوید که مهمانان را در لبه های صندلی های خود قرار می دهد! یک سواری هیجان انگیز با سرعت بالا را تجربه کنید که ترکیبی از قدرت خام، فناوری پیشرفته و مقیاس عظیم است. نمایش ها در طول روز اتفاق می افتد.",
+      "facility-007": "طعم های منحصر به فرد ناهار خوری جنوب اقیانوس آرام",
+      "facility-008": "میان وعده های سالم از سام سنجاب.",
+      "facility-009": "از یک برگر کلاسیک Bezzy، خانگی با تمام تزئینات لذت ببرید.",
+      "facility-010": "برای ارزش پرداخت کنید! چه یک تی شرت گلف لامبدا بخواهید و چه یک فنجان سیپی Step Functions، ما برای پاسخگویی به نیازهای شما در حال توسعه هستیم."
+    },
+    "photoUploaded": {
+      "title": "عکس بارگذاری شده است.",
+      "text": "ما عکس شما را پردازش می کنیم. وقتی آماده شد هشدار دریافت خواهید کرد."
+    },
+    "photoProcessed": {
+      "title": "عکس آماده!",
+      "text": "عکس جدید شما آماده مشاهده در گالری است."
+    },
+    "errors": {
+      "photoWrongType": "نوع فایل اشتباه - فقط JPG.",
+      "photoTooLarge": "تصویر بسیار بزرگ است - حداکثر 5 مگابایت."
+    }
+  },
+  "ja": {
+    "message": {
+      "hello": "こんにちは、ゲスト！"
+    },
+    "words": {
+      "mins": "分",
+      "description": "アクティビティの説明"
+    },
+    "phrases": {
+      "addPhoto": "乗車写真を追加",
+      "yourGallery": "あなたのフォトギャラリー",
+      "selectLanguage": "言語を選択:",
+      "currentWaitTime": "現在の待ち時間",
+      "outOfService": "アウトオブサービス"
+    },
+    "rideDescriptions": {
+      "null": "読み込み中...",
+      "ride-001": "バーチャルリアリティショーケースでは、すべてのライドがお客様に合わせてカスタマイズされ、未来のビジョンにゲストが没頭します。シュメール語がガイドを務めるさまざまなインタラクティブなアドベンチャーからお選びください。想像力を自由に膨らませましょう。",
+      "ride-002": "島のイベントバスに乗って移動しましょう！イベントブリッジは公園のあちこちで起こっていることをすべてつなげています。簡単に訪れるためのチケットです。乗船すると、その日のすべてのイベントの情報が流れます。参加するか合格するかを選択します。すべて観察可能です！",
+      "ride-003": "API Gatewayシャトルの安全から、銀河の驚異を体験してください。惑星を一周する高速往復で、DDoS 流星群や太陽系の危険から安全に守られています。すべてが完全に管理されています。乗り心地を楽しんでください！",
+      "ride-004": "SARカルーセルは、インベンターアイランドで最初に始める場所です。構築され共有された素晴らしいアイデアをすべて見てから、独自のアイデアを作成してください！助けが必要なら、リスのサムがどんな質問にも答えてくれます。",
+      "ride-005": "私たちがイノベーター島で最初に作った乗り物は、島の中心にある人工火山の中にある高速ジェットコースター、SQSマウンテンです。混雑しているように見えても心配はいりません。待ち行列はとても早く移動します。",
+      "ride-006": "あらゆる年齢のお子様はコンテナが大好きです。Fargateを使えば、コンテナでできる楽しいことに集中できます。これは家族向けのアトラクションで、サーバーレスとコンテナーがどのように共存し、発明者がかっこいいものを作ることに集中できるかを示しています。",
+      "ride-007": "迷子にならないように。Step Functions に現在地を把握する方法を教えてもらいましょう！イノベーターにとっては決して小さな世界ではありません。ステップ・ファンクションの世界では、パワーアップしてさらに素晴らしい発明を生み出すことができます。",
+      "ride-008": "これは世界の究極のウォーターパークです。たくさんの小川があると、濡れてしまいそうです！水着を着用することをお勧めします。ほとんどのアトラクションは、消防ホースの有無にかかわらず楽しむことができます。その後、ラムダ湖を訪れることをお勧めします。",
+      "ride-009": "CloudWatch Log Ride で島の最も美しい場所を散策しましょう。他に類を見ない丸太の小川です。予期していなかったときに突然のねじれや水滴が起こります。アラームが聞こえたら、水しぶきに備えましょう！",
+      "ride-010": "島が提供する最高の料理を楽しみながら、みんなのお気に入りのサーバーレスリスに会いましょう。このフルサービスのダイニング体験では、世界各国の料理やご家族向けのエンターテイメントを1時間おきにお召し上がりいただけます。",
+      "ride-011": "Lambda は開発者の生活を楽にします。余った時間があれば、顧客機能の差別化に取り組むか、湖を巡るかを選択できます。ここイノベーターアイランドでは毎日が金曜日なので、足を濡らしましょう！",
+      "ride-012": "SNS はサーバーレスファミリーで最も古いサービスの 1 つです。このツアーに参加して、当社の有名な SNS サービスの歴史をご覧ください。あっという間にファンアウトし、とても楽しんでいるので、みんなに知らせたくなるでしょう。ただし、再試行ポリシーが明確に定義されている場合に限ります。",
+      "ride-013": "「島の公式鳥は何？」公園の動物園を探索しながら、アレクサに聞いてみましょう。彼女はあなたに常に情報を伝え、大きな目をしたネイティブアイランドフェレットがお腹が空いているか、人懐っこいかを知らせてくれます。給餌時間は一日中行われます。",
+      "ride-014": "北カリフォルニアは、米国西部で最初のリージョンの本拠地です。この列車の旅では、初期のクラウドのパイオニアたちと同じ足跡をたどり、高可用性の最前線を探求してきました。",
+      "ride-015": "現代のアプリケーションデザインは急速に進化していますが、将来はどうなるのでしょうか？Innovator Islandでサーバーレスがどのように使われているか、そして未来の組織がどのようにサーバーレスファーストの考え方をして運命への道を切り開くかを学びましょう。",
+      "ride-016": "ゲストを席の端に座らせてしまうようなハイオクタン価のパフォーマンスに備えましょう！未加工のパワー、最先端のテクノロジー、そして巨大なスケールを組み合わせた高速スリル満点のライドを体験してください。ショーは終日開催されています。",
+      "facility-007": "南太平洋ならではの味覚をお楽しみください。",
+      "facility-008": "サム・ザ・リスのヘルシーなスナック。",
+      "facility-009": "すべてのトリミングが施された自家製クラシックなベジーバーガーをお楽しみください。",
+      "facility-010": "価値に見合った支払いを！ラムダゴルフティーでも Step Functions のシッピーカップでも、お客様のニーズに合わせてスケールアップしています。"
+    },
+    "photoUploaded": {
+      "title": "写真をアップロードしました。",
+      "text": "写真を処理しています。準備が整うとアラートが届きます。"
+    },
+    "photoProcessed": {
+      "title": "写真準備完了！",
+      "text": "新しい写真をギャラリーに表示する準備が整いました。"
+    },
+    "errors": {
+      "photoWrongType": "ファイルタイプが間違っています-JPGのみ。",
+      "photoTooLarge": "画像が大きすぎます。最大5Mbです。"
     }
   }
 }
