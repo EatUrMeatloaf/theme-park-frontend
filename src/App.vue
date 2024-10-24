@@ -7,15 +7,15 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 /*! Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
  *  SPDX-License-Identifier: MIT-0
  */
 
-import { AwsRum, AwsRumConfig } from 'aws-rum-web';
 import NavBar from '@/components/NavBar'
 import ParkAlert from '@/components/ParkAlert'
 import axios from 'axios'
+import { AwsRum } from 'aws-rum-web';
 
 export default {
   name: 'App',
@@ -40,28 +40,28 @@ export default {
         const key = item.sortKey.split('-')[0]
         switch (key) {
           // Facilities
-          case 'facility':
-            this.$store.commit('addFacility', {
-              id: item.sortKey,
-              name: item.name,
-              lat: JSON.parse(item.map).lat.N,
-              lng: JSON.parse(item.map).lng.N,
-              type: item.type
-            })
-            break
-          // Rides
-          case 'ride':
-            this.$store.commit('addRide', {
-              id: item.sortKey,
-              name: item.name,
-              lat: JSON.parse(item.map).lat.N,
-              lng: JSON.parse(item.map).lng.N,
-              thumbnail: item.thumbnail,
-              image: item.image,
-              wait: null,
-              inService: null
-            })
-            break
+        case 'facility':
+          this.$store.commit('addFacility', {
+            id: item.sortKey,
+            name: item.name,
+            lat: JSON.parse(item.map).lat.N,
+            lng: JSON.parse(item.map).lng.N,
+            type: item.type
+          })
+          break
+        // Rides
+        case 'ride':
+          this.$store.commit('addRide', {
+            id: item.sortKey,
+            name: item.name,
+            lat: JSON.parse(item.map).lat.N,
+            lng: JSON.parse(item.map).lng.N,
+            thumbnail: item.thumbnail,
+            image: item.image,
+            wait: null,
+            inService: null
+          })
+          break
         }
         // Now add init ride times
         if (initRideTimes) {
@@ -81,8 +81,8 @@ export default {
       console.log('ParkMap: ', response)
       this.initState(response.data.result.Items)
 
-      // Initialize AWS RUM
-      const config: AwsRumConfig = {
+      // Initialize AWS CloudWatch RUM
+      const config = {
         sessionSampleRate: 1,
         identityPoolId: "us-east-1:d57a48f9-d843-4b5d-a94c-67231b1547be",
         endpoint: "https://dataplane.rum.us-east-1.amazonaws.com",
@@ -91,11 +91,11 @@ export default {
         enableXRay: true
       };
 
-      const APPLICATION_ID: string = '94c4cbc7-bbe8-403f-b2d1-9f052240e083';
-      const APPLICATION_VERSION: string = '1.0.0';
-      const APPLICATION_REGION: string = 'us-east-1';
+      const APPLICATION_ID = '94c4cbc7-bbe8-403f-b2d1-9f052240e083';
+      const APPLICATION_VERSION = '1.0.0';
+      const APPLICATION_REGION = 'us-east-1';
 
-      const awsRum: AwsRum = new AwsRum(
+      const awsRum = new AwsRum(
         APPLICATION_ID,
         APPLICATION_VERSION,
         APPLICATION_REGION,
